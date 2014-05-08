@@ -1,0 +1,78 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiploNet.Diary.BusinessObject", "DiploNet.Diary.BusinessObject\DiploNet.Diary.BusinessObject.csproj", "{A88895A1-05B9-4797-99C6-C0B247680CDE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DiploNet.Diary.BusinessLogic", "DiploNet.Diary.BusinessLogic", "{2EBDD8AF-8F95-4844-9EEC-48248B4FEB0B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiploNet.Diary.DataAccess.Facade", "DiploNet.Diary.DataAcess.Facade\DiploNet.Diary.DataAccess.Facade.csproj", "{FC4BCA0A-A986-4A1F-B032-2AC7ED6DF65D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiploNet.Diary.Domains", "Diplo.NetDiary.Domains\DiploNet.Diary.Domains.csproj", "{21EC6193-F9FE-4B4D-B5D8-EB9BC012C63F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DiploNet.Diary.DataAccess", "DiploNet.Diary.DataAccess", "{D59B97B7-433F-4D7C-8C50-D3254AAC1273}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiploNet.Diary.DataAccess.FNHibernate", "DiploNet.Diary.DataAccess.FNHibernate\DiploNet.Diary.DataAccess.FNHibernate.csproj", "{BDA9C694-2017-4ED5-BE25-5001D5FA57E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiploNet.Diary.DataAccess.Mock", "DiploNet.Diary.DataAccess.Mock\DiploNet.Diary.DataAccess.Mock.csproj", "{0F885474-3C1D-4022-9257-6185C1CC66CD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{D6091A60-8C78-4278-B7BC-6F80AE635C6F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiploNet.Diary.Domains.Test", "DiploNet.Diary.Domains.Test\DiploNet.Diary.Domains.Test.csproj", "{51560F9B-8C5D-4402-B6BF-BECD1D9E0D97}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiploNet.Diary.DataAccess.FNHibernate.Test", "DiploNet.Diary.DataAccess.FNHibernate.Test\DiploNet.Diary.DataAccess.FNHibernate.Test.csproj", "{A764A7C2-AC42-4C39-A50E-31FD40B14924}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiploNet.Diary.Core", "DiploNet.Diary.Core\DiploNet.Diary.Core.csproj", "{2741069C-431B-4F4A-B9CF-7B7D200CC566}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A88895A1-05B9-4797-99C6-C0B247680CDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A88895A1-05B9-4797-99C6-C0B247680CDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A88895A1-05B9-4797-99C6-C0B247680CDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A88895A1-05B9-4797-99C6-C0B247680CDE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC4BCA0A-A986-4A1F-B032-2AC7ED6DF65D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC4BCA0A-A986-4A1F-B032-2AC7ED6DF65D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC4BCA0A-A986-4A1F-B032-2AC7ED6DF65D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC4BCA0A-A986-4A1F-B032-2AC7ED6DF65D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21EC6193-F9FE-4B4D-B5D8-EB9BC012C63F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21EC6193-F9FE-4B4D-B5D8-EB9BC012C63F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21EC6193-F9FE-4B4D-B5D8-EB9BC012C63F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21EC6193-F9FE-4B4D-B5D8-EB9BC012C63F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDA9C694-2017-4ED5-BE25-5001D5FA57E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDA9C694-2017-4ED5-BE25-5001D5FA57E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDA9C694-2017-4ED5-BE25-5001D5FA57E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDA9C694-2017-4ED5-BE25-5001D5FA57E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F885474-3C1D-4022-9257-6185C1CC66CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F885474-3C1D-4022-9257-6185C1CC66CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F885474-3C1D-4022-9257-6185C1CC66CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F885474-3C1D-4022-9257-6185C1CC66CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51560F9B-8C5D-4402-B6BF-BECD1D9E0D97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51560F9B-8C5D-4402-B6BF-BECD1D9E0D97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51560F9B-8C5D-4402-B6BF-BECD1D9E0D97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51560F9B-8C5D-4402-B6BF-BECD1D9E0D97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A764A7C2-AC42-4C39-A50E-31FD40B14924}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A764A7C2-AC42-4C39-A50E-31FD40B14924}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A764A7C2-AC42-4C39-A50E-31FD40B14924}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A764A7C2-AC42-4C39-A50E-31FD40B14924}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2741069C-431B-4F4A-B9CF-7B7D200CC566}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2741069C-431B-4F4A-B9CF-7B7D200CC566}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2741069C-431B-4F4A-B9CF-7B7D200CC566}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2741069C-431B-4F4A-B9CF-7B7D200CC566}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A88895A1-05B9-4797-99C6-C0B247680CDE} = {2EBDD8AF-8F95-4844-9EEC-48248B4FEB0B}
+		{21EC6193-F9FE-4B4D-B5D8-EB9BC012C63F} = {2EBDD8AF-8F95-4844-9EEC-48248B4FEB0B}
+		{2741069C-431B-4F4A-B9CF-7B7D200CC566} = {2EBDD8AF-8F95-4844-9EEC-48248B4FEB0B}
+		{FC4BCA0A-A986-4A1F-B032-2AC7ED6DF65D} = {D59B97B7-433F-4D7C-8C50-D3254AAC1273}
+		{BDA9C694-2017-4ED5-BE25-5001D5FA57E8} = {D59B97B7-433F-4D7C-8C50-D3254AAC1273}
+		{0F885474-3C1D-4022-9257-6185C1CC66CD} = {D59B97B7-433F-4D7C-8C50-D3254AAC1273}
+		{51560F9B-8C5D-4402-B6BF-BECD1D9E0D97} = {D6091A60-8C78-4278-B7BC-6F80AE635C6F}
+		{A764A7C2-AC42-4C39-A50E-31FD40B14924} = {D6091A60-8C78-4278-B7BC-6F80AE635C6F}
+	EndGlobalSection
+EndGlobal
