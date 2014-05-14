@@ -7,7 +7,5 @@ namespace DiploNet.Diary.Domains.Impl
     {
         public DiaryPageDomain(IDiaryPageRepository repository)
             : base(repository) { }
-
-
     }
 }

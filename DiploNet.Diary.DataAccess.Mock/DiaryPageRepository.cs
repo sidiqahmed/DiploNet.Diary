@@ -8,36 +8,37 @@ namespace DiploNet.Diary.DataAccess.Mock
 {
     public class DiaryPageRepository : IDiaryPageRepository
     {
-        private DbMock _db;
-
-        public DiaryPageRepository()
-        {
-            _db = new DbMock();
-        }
-
         public IQueryable<IDiaryPage> GetAll()
         {
-            return _db.ReadAll().AsQueryable();
+            return DbMock.GetDb().AsQueryable();
         }
 
         public IQueryable<IDiaryPage> Get(Expression<Func<IDiaryPage, bool>> wherePredicate)
         {
-            return _db.ReadAll().AsQueryable().Where(wherePredicate);
+            return DbMock.GetDb().AsQueryable().Where(wherePredicate);
         }
         
         public void Save(IDiaryPage entity)
         {
-            throw new NotImplementedException();
+            DbMock.GetDb()
+                .ToList()
+                .Add(entity);
         }
 
         public void Update(IDiaryPage entity)
         {
-            throw new NotImplementedException();
+            DbMock.GetDb().ToList().Remove(entity);
+            DbMock.GetDb().ToList().Add(entity);
         }
 
         public void Delete(IDiaryPage entity)
         {
-            throw new NotImplementedException();
+            DbMock.GetDb().ToList().Remove(entity);
+        }
+
+        public IDiaryPage Get(object id)
+        {
+            return DbMock.GetDb().Single(s => s.Id == (long)id);
         }
     }
 }

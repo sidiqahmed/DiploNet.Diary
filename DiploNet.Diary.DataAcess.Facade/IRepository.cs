@@ -8,6 +8,7 @@ namespace DiploNet.Diary.DataAccess.Facade
     {
         IQueryable<T> GetAll();
         IQueryable<T> Get(Expression<Func<T, bool>> wherePredicate);
+        T Get(object id);
         void Save(T entity);
         void Update(T entity);
         void Delete(T entity);

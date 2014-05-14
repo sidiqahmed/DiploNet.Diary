@@ -63,6 +63,7 @@
     <Compile Include="DiaryPageRepositoryTest.cs" />
     <Compile Include="Configuration\FNHibernateConfigurationTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UnitOfWorkTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DiploNet.Diary.BusinessObject\DiploNet.Diary.BusinessObject.csproj">

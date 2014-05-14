@@ -16,7 +16,7 @@ namespace DiploNet.Diary.DataAccess.FNHibernate
         {
             _session = session;
         }
-
+        
         public IQueryable<T> GetAll()
         {
             return _session.Query<T>();
@@ -27,19 +27,24 @@ namespace DiploNet.Diary.DataAccess.FNHibernate
             return this.GetAll().Where(wherePredicate);
         }
 
+        public T Get(object id)
+        {
+            return _session.Get<T>(id);
+        }
+
         public void Save(T entity)
         {
-            throw new NotImplementedException();
+            _session.Save(entity);
         }
 
         public void Update(T entity)
         {
-            throw new NotImplementedException();
+            _session.Update(entity);
         }
 
         public void Delete(T entity)
         {
-            throw new NotImplementedException();
+            _session.Delete(entity);
         }
     }
 }
