@@ -20,7 +20,7 @@ namespace DiploNet.Diary.Web.MVCSite.Controllers
             _diaryPageDomain = diaryPageDomain;
         }
 
-        public ActionResult Index()
+        public ViewResult Index()
         {
             var diaryPageModel = new DiaryModel();
             diaryPageModel.DiaryPages = _diaryPageDomain.GetAll();
